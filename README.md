@@ -13,7 +13,7 @@ $ npm install -g is-yarn
 ```js
 const is = require('is-yarn')
 
-console.log(is.isyarn())
+is.isyarn()
 // Retruns true if yarn is installed
 //=> 'true'
 ```
