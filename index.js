@@ -9,17 +9,19 @@
 
 'use strict'
 
-const shell = require('shelljs')
+const cmd = require('child_process').exec
 
 // function to check if yarn is installed globally
 function isyarn () {
-  const pkgINFO = shell.exec('npm ls | npm list --depth 1 --global yarnpkg', {silent: true}).code
-  if (pkgINFO === 0) {
-    return true
-  } else {
-    return false
-  }
+  cmd('npm ls | npm list --depth 1 --global yarnpkg', (error) => {
+    if (error === null) {
+      console.log('true')
+    } else {
+      console.log('false')
+    }
+  })
 }
+
 // exports
 module.exports = {
   isyarn
