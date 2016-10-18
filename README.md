@@ -18,6 +18,9 @@ console.log(is.isyarn())
 //=> 'true'
 ```
 
+## Inspiration
+[This](https://twitter.com/kentcdodds/status/788218953768116224) tweet from [Kent C. Dodds](https://github.com/kentcdodds)
+
 ## License
 
 MIT © [Akash Nimare](http://akashnimare.in)
