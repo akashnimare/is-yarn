@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save is-yarn
+$ npm install -g is-yarn
 ```
 
 ## Usage
