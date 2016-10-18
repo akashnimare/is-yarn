@@ -1,0 +1,33 @@
+{
+  "name": "is-yarn",
+  "version": "0.0.1",
+  "description": "Check if yarn is installed globally",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashnimare/is-yarn.git"
+  },
+  "bugs": "https://github.com/akashnimare/is-yarn/issues",
+  "author": {
+    "name": "Akash Nimare",
+    "email": "svnitakash@gmail.com",
+    "url": "http://akashnimare.in"
+  },
+  "scripts": {
+    "pretest": "standard"
+  },
+  "dependencies": {
+  	"shelljs":"0.5.3"
+  },
+  "devDependencies": {
+     "standard": "^8.0.0"
+   },
+  "keywords": [
+    "yarn",
+    "check-yarn",
+    "cli-app",
+    "cli"
+  ]
+}
+
