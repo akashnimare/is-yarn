@@ -15,7 +15,7 @@
     "url": "http://akashnimare.in"
   },
   "scripts": {
-    "pretest": "standard"
+    "test": "standard"
   },
   "dependencies": {
   	"shelljs":"0.5.3"
