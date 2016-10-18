@@ -1,6 +1,6 @@
 # is-yarn [![Build Status](https://travis-ci.org/akashnimare/is-yarn.svg?branch=master)](https://travis-ci.org/akashnimare/is-yarn)
 
-> Check if yarn is installed gloabally
+> Check if yarn is installed gloabally.
 
 ## Install
 
@@ -19,7 +19,7 @@ console.log(is.isyarn())
 ```
 
 ## Inspiration
-[This](https://twitter.com/kentcdodds/status/788218953768116224) tweet from [Kent C. Dodds](https://github.com/kentcdodds)
+[This](https://twitter.com/kentcdodds/status/788218953768116224) tweet from [Kent C. Dodds](https://github.com/kentcdodds).
 
 ## License
 
