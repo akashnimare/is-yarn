@@ -8,17 +8,14 @@
 $ npm install --save is-yarn
 ```
 
-
 ## Usage
 
 ```js
-const is = require('is-yarn');
+const is = require('is-yarn')
 
-
-is.isyarn();
+console.log(is.isyarn())
 // Retruns true if yarn is installed
 //=> 'true'
-
 ```
 
 ## License
