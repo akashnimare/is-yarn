@@ -13,7 +13,7 @@ const cmd = require('child_process').exec
 
 // function to check if yarn is installed globally
 function isyarn () {
-  cmd('npm ls | npm list --depth 1 --global yarnpkg', (error) => {
+  cmd('npm ls | npm list --depth 1 --global yarn', (error) => {
     if (error === null) {
       console.log('true')
     } else {
